@@ -3,6 +3,7 @@
 
 <head>
     <title>Home</title>
+    @include('include.link')
 </head>
 
 <body class="animsition">
