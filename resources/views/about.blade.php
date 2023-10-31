@@ -4,6 +4,8 @@
 	<title>About</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+    @include('include.link')
+
 </head>
 <body class="animsition">
 
@@ -518,7 +520,7 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 			</div>
 		</div>
 	</footer>
-
+    @include('include.script')
 
 	<!-- Back to top -->
 	<div class="btn-back-to-top" id="myBtn">
