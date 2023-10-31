@@ -1716,10 +1716,14 @@
     <script src="{{ asset('vendor/isotope/isotope.pkgd.min.js') }}"></script>
     <!--===============================================================================================-->
     <script src="{{ asset('vendor/sweetalert/sweetalert.min.js') }}"></script>
-    <script>
-        $('.js-addwish-b2').on('click', function(e) {
-            e.preventDefault();
-        });
+    <!--===============================================================================================-->
+    <script src="{{ asset('js/main.js') }}"></script>
+    <!--===============================================================================================-->
+    <script src="{{ asset('vendor/perfect-scrollbar/perfect-scrollbar.min.js') }}">
+        < script >
+            $('.js-addwish-b2').on('click', function(e) {
+                e.preventDefault();
+            });
 
         $('.js-addwish-b2').each(function() {
             var nameProduct = $(this).parent().parent().find('.js-name-b2').html();
@@ -1751,8 +1755,6 @@
             });
         });
     </script>
-    <!--===============================================================================================-->
-    <script src="{{ asset('vendor/perfect-scrollbar/perfect-scrollbar.min.js') }}"></script>
     <script>
         $('.js-pscroll').each(function() {
             $(this).css('position', 'relative');
@@ -1768,8 +1770,6 @@
             })
         });
     </script>
-    <!--===============================================================================================-->
-    <script src="{{ asset('js/main.js') }}"></script>
 
 </body>
 
