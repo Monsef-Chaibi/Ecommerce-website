@@ -20,3 +20,4 @@ Route::get('/', function () {
 
 Route::get('/product', [Controller::class, 'product']);
 Route::get('/about', [Controller::class, 'about']);
+Route::get('/contact', [Controller::class, 'contact']);
