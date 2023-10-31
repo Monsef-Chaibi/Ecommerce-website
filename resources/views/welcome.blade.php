@@ -60,11 +60,11 @@
                             </li>
 
                             <li>
-                                <a href="about.html">About</a>
+                                <a href="/about">About</a>
                             </li>
 
                             <li>
-                                <a href="contact.html">Contact</a>
+                                <a href="/contact">Contact</a>
                             </li>
                         </ul>
                     </div>
@@ -160,15 +160,15 @@
                 </li>
 
                 <li>
-                    <a href="product.html">Product</a>
+                    <a href="/product">Product</a>
                 </li>
 
                 <li>
-                    <a href="about.html">About</a>
+                    <a href="/about">About</a>
                 </li>
 
                 <li>
-                    <a href="contact.html">Contact</a>
+                    <a href="/contact">Contact</a>
                 </li>
             </ul>
         </div>

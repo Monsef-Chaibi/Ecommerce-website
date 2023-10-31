@@ -50,21 +50,21 @@
 					<!-- Menu desktop -->
 					<div class="menu-desktop">
 						<ul class="main-menu">
-							<li>
-								<a href="/">Home</a>
-							</li>
+                            <li >
+                                <a href="/">Home</a>
+                            </li>
 
-							<li class="active-menu">
-								<a href="product.html">Product</a>
-							</li>
+                            <li class="active-menu">
+                                <a href="/product">Product</a>
+                            </li>
 
-							<li>
-								<a href="about.html">About</a>
-							</li>
+                            <li>
+                                <a href="/about">About</a>
+                            </li>
 
-							<li>
-								<a href="contact.html">Contact</a>
-							</li>
+                            <li>
+                                <a href="/contact">Contact</a>
+                            </li>
 						</ul>
 					</div>
 
@@ -148,26 +148,21 @@
 			</ul>
 
 			<ul class="main-menu-m">
-				<li>
-                    <ul class="sub-menu-m">
-                        <a href="/">Home</a>
-					</ul>
-					<span class="arrow-main-menu-m">
-						<i class="fa fa-angle-right" aria-hidden="true"></i>
-					</span>
-				</li>
+                <li>
+                    <a href="/">Home</a>
+                </li>
 
-				<li>
-					<a href="product.html">Product</a>
-				</li>
+                <li class="active-menu">
+                    <a href="/product">Product</a>
+                </li>
 
-				<li>
-					<a href="about.html">About</a>
-				</li>
+                <li>
+                    <a href="/about">About</a>
+                </li>
 
-				<li>
-					<a href="contact.html">Contact</a>
-				</li>
+                <li>
+                    <a href="/contact">Contact</a>
+                </li>
 			</ul>
 		</div>
 
