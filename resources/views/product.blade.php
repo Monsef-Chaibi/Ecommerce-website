@@ -60,7 +60,7 @@
 							</li>
 
 							<li class="active-menu">
-								<a href="product.html">Shop</a>
+								<a href="product.html">Product</a>
 							</li>
 
 							<li class="label1" data-label1="hot">
@@ -174,17 +174,9 @@
 				</li>
 
 				<li>
-					<a href="product.html">Shop</a>
+					<a href="product.html">Product</a>
 				</li>
-
-				<li>
-					<a href="shoping-cart.html" class="label1 rs1" data-label1="hot">Features</a>
-				</li>
-
-				<li>
-					<a href="blog.html">Blog</a>
-				</li>
-
+                
 				<li>
 					<a href="about.html">About</a>
 				</li>
