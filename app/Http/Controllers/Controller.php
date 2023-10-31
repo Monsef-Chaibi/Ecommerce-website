@@ -17,5 +17,9 @@ class Controller extends BaseController
     {
         return view("about");
     }
-    
+    public function contact()
+    {
+        return view("contact");
+    }
+
 }
