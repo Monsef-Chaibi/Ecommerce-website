@@ -13,4 +13,8 @@ class Controller extends BaseController
     {
         return view("product");
     }
+    public function about()
+    {
+        return view("about");
+    }
 }
