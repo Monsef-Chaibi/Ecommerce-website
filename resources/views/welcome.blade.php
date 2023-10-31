@@ -1754,7 +1754,7 @@
                 swal(nameProduct, "is added to cart !", "success");
             });
         });
-    </script>
+    </>
     <script>
         $('.js-pscroll').each(function() {
             $(this).css('position', 'relative');
