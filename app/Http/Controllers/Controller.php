@@ -21,5 +21,9 @@ class Controller extends BaseController
     {
         return view("contact");
     }
+    public function cart()
+    {
+        return view("cart");
+    }
 
 }
