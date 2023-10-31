@@ -51,7 +51,7 @@
 					<div class="menu-desktop">
 						<ul class="main-menu">
 							<li>
-								<a href="index.html">Home</a>
+								<a href="/">Home</a>
 							</li>
 
 							<li class="active-menu">
@@ -150,7 +150,7 @@
 			<ul class="main-menu-m">
 				<li>
                     <ul class="sub-menu-m">
-                        <a href="index.html">Home</a>
+                        <a href="/">Home</a>
 					</ul>
 					<span class="arrow-main-menu-m">
 						<i class="fa fa-angle-right" aria-hidden="true"></i>
