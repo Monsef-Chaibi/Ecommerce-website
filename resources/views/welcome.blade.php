@@ -73,14 +73,15 @@
                     <div class="wrap-icon-header flex-w flex-r-m">
                         <ul class="main-menu">
                             <li>
-                                <a href="/login">Login</a>
+                                <li>
+                                    <a href="/login">
+                                        Login
+                                    </a>
+                                </li>
+                                    <a href="/register">
+                                        Register
+                                    </a>
                             </li>
-                            <li>
-                                <a href="/register">
-                                    Register
-                                </a>
-                            </li>
-
                         </ul>
                         <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart"
                             data-notify="2">
