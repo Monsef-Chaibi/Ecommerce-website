@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Home</title>
+    <title>Dashboard</title>
     @include('include.link')
 
 </head>
@@ -52,7 +52,7 @@
                     <div class="menu-desktop">
                         <ul class="main-menu">
                             <li class="active-menu">
-                                <a href="/">Home</a>
+                                <a href="/">Dashboard</a>
                             </li>
 
                             <li>
@@ -156,7 +156,7 @@
 
             <ul class="main-menu-m">
                 <li>
-                    <a href="/">Home</a>
+                    <a href="/">Dashboard</a>
                 </li>
 
                 <li>
