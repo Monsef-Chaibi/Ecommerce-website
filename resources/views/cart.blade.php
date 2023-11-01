@@ -74,11 +74,11 @@
                     <div class="wrap-icon-header flex-w flex-r-m">
                         <ul class="main-menu">
                             <li>
-                                <li>
-                                    <a href="/login">
-                                        Login
-                                    </a>
-                                </li>
+                                <a href="/login">
+                                    Login
+                                </a>
+                            </li>
+                            <li>
                                     <a href="/register">
                                         Register
                                     </a>
@@ -104,11 +104,11 @@
             <div class="wrap-icon-header flex-w flex-r-m">
                 <ul class="main-menu">
                     <li>
-                        <li>
-                            <a href="/login">
-                                Login
-                            </a>
-                        </li>
+                        <a href="/login">
+                            Login
+                        </a>
+                    </li>
+                    <li>
                             <a href="/register">
                                 Register
                             </a>
