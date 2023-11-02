@@ -70,6 +70,26 @@
                     </div>
 
                     <!-- Icon header -->
+                    @auth
+
+                    <div class="wrap-icon-header flex-w flex-r-m">
+                        <ul class="main-menu">
+                            <form method="POST" action="{{ route('logout') }}">
+                                @csrf
+                                <x-dropdown-link :href="route('logout')"
+                                onclick="event.preventDefault(); this.closest('form').submit();">
+                                        <li style="color: #333333">
+                                            Log Out
+                                        </li>
+                                    </x-dropdown-link>
+                                </form>
+                        </ul>
+                        <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart"
+                            data-notify="2">
+                            <i class="zmdi zmdi-shopping-cart"></i>
+                        </div>
+                    </div>
+                @else
                     <div class="wrap-icon-header flex-w flex-r-m">
                         <ul class="main-menu">
                             <li>
@@ -78,9 +98,9 @@
                                 </a>
                             </li>
                             <li>
-                                    <a href="/register">
-                                        Register
-                                    </a>
+                                <a href="/register">
+                                    Register
+                                </a>
                             </li>
                         </ul>
                         <div class="icon-header-item cl2 hov-cl1 trans-04 p-l-22 p-r-11 icon-header-noti js-show-cart"
@@ -88,6 +108,7 @@
                             <i class="zmdi zmdi-shopping-cart"></i>
                         </div>
                     </div>
+                @endauth
                 </nav>
             </div>
         </div>
